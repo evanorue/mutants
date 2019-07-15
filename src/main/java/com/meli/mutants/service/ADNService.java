@@ -39,7 +39,7 @@ public class ADNService implements IADNService {
             if(isMutant){
                 dna.setKind("MUTANTE");
             }else {
-                dna.setKind("POSIBLEMENTE HUMANO");
+                dna.setKind("NO MUTANTE");
             }
         }else {
             dna.setKind("ERORR DE ENTRADA");

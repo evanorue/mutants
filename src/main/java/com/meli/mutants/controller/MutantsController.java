@@ -24,10 +24,9 @@ public class MutantsController {
         return adnService.processDna(adnBase);
     }
 
-    @RequestMapping(value="status/", method = RequestMethod.POST)
+    @RequestMapping(value="status/", method = RequestMethod.GET)
     @ResponseBody
-    public String status(@RequestBody ADNBase adnBase){
-
+    public String status(){
         return "OK";
     }
 }
